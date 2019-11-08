@@ -62,7 +62,7 @@ ReactDOM.render(
     <Router>
         <div>
             <Nav />
-            <Route exact path="/Jsdemo" component={Jsdemo} />
+            <Route exact path="/" component={Jsdemo} />
             <Route  path="/Jsdemob" component={Jsdemob} />
             <Route  path="/Jsdemoc" component={Jsdemoc} />
         </div>
